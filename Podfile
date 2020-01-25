@@ -12,4 +12,5 @@ target 'YTS' do
   pod 'SwiftMessages'
   pod 'Kingfisher'
   pod 'Alamofire', '~> 4.7'
+  pod 'Cosmos'
 end

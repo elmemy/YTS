@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - Cosmos (20.0.1)
   - Kingfisher (5.12.0):
     - Kingfisher/Core (= 5.12.0)
   - Kingfisher/Core (5.12.0)
@@ -18,6 +19,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - Cosmos
   - Kingfisher
   - NVActivityIndicatorView
   - RxCocoa (~> 5)
@@ -27,6 +29,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Cosmos
     - Kingfisher
     - NVActivityIndicatorView
     - RxCocoa
@@ -36,6 +39,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cosmos: b47fddf2102bb48580cd3025d9ce0a5c658a65da
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
@@ -43,6 +47,6 @@ SPEC CHECKSUMS:
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
 
-PODFILE CHECKSUM: 6636c8254963a3ae707f2c9a5a315ea14a6bfda2
+PODFILE CHECKSUM: a69202aba4e0a06b47c696aa17be636134a7caf5
 
 COCOAPODS: 1.8.4

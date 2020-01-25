@@ -16,6 +16,8 @@
 		AD4707BB23DA48A600D7F370 /* MoviesListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4707BA23DA48A600D7F370 /* MoviesListCellViewModel.swift */; };
 		AD4707BD23DA4A6900D7F370 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4707BC23DA4A6900D7F370 /* State.swift */; };
 		AD4707BF23DB97AE00D7F370 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4707BE23DB97AE00D7F370 /* URLS.swift */; };
+		AD4707C123DCDCD100D7F370 /* FilmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4707C023DCDCD100D7F370 /* FilmDetailsViewController.swift */; };
+		AD4707C323DCDDEC00D7F370 /* MovieDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4707C223DCDDEC00D7F370 /* MovieDescriptionViewModel.swift */; };
 		AD7824AB23D7BC2D003DAEB6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7824AA23D7BC2D003DAEB6 /* MovieCell.swift */; };
 		ADC250AE23D65F00000B0E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC250AD23D65F00000B0E4B /* AppDelegate.swift */; };
 		ADC250B023D65F00000B0E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC250AF23D65F00000B0E4B /* SceneDelegate.swift */; };
@@ -41,6 +43,8 @@
 		AD4707BA23DA48A600D7F370 /* MoviesListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListCellViewModel.swift; sourceTree = "<group>"; };
 		AD4707BC23DA4A6900D7F370 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		AD4707BE23DB97AE00D7F370 /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		AD4707C023DCDCD100D7F370 /* FilmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailsViewController.swift; sourceTree = "<group>"; };
+		AD4707C223DCDDEC00D7F370 /* MovieDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDescriptionViewModel.swift; sourceTree = "<group>"; };
 		AD7824AA23D7BC2D003DAEB6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		ADC250AA23D65F00000B0E4B /* YTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC250AD23D65F00000B0E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				ADC250C523D6657E000B0E4B /* SplachViewController.swift */,
 				ADC250D123D66953000B0E4B /* HomeViewController.swift */,
 				ADC250DB23D66E87000B0E4B /* HomeNavigationController.swift */,
+				AD4707C023DCDCD100D7F370 /* FilmDetailsViewController.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			children = (
 				AD4707B823DA474E00D7F370 /* MoviesListViewModel.swift */,
 				AD4707BA23DA48A600D7F370 /* MoviesListCellViewModel.swift */,
+				AD4707C223DCDDEC00D7F370 /* MovieDescriptionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				ADC250CC23D668AC000B0E4B /* Language.swift in Sources */,
 				AD7824AB23D7BC2D003DAEB6 /* MovieCell.swift in Sources */,
 				ADC250CE23D668CF000B0E4B /* UIViewController.swift in Sources */,
+				AD4707C323DCDDEC00D7F370 /* MovieDescriptionViewModel.swift in Sources */,
 				AD4707A723DA196200D7F370 /* Binding.swift in Sources */,
 				AD4707B223DA44BA00D7F370 /* MoviesModel.swift in Sources */,
 				ADC250DC23D66E87000B0E4B /* HomeNavigationController.swift in Sources */,
@@ -316,6 +323,7 @@
 				ADC250D223D66953000B0E4B /* HomeViewController.swift in Sources */,
 				AD4707B523DA45FE00D7F370 /* APIService.swift in Sources */,
 				ADC250C623D6657E000B0E4B /* SplachViewController.swift in Sources */,
+				AD4707C123DCDCD100D7F370 /* FilmDetailsViewController.swift in Sources */,
 				AD4707BB23DA48A600D7F370 /* MoviesListCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

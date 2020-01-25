@@ -127,6 +127,9 @@ extension HomeViewController:UICollectionViewDelegate,UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.viewModel.userPressed(at: indexPath)
         print(viewModel.selectedMovie!.id)
+        let vc = Storyboard.Main.instantiate(FilmDetailsViewController.self)
+        vc.viewModel.selectedMovie = viewModel.selectedMovie
+        self.navigationController!.pushViewController(vc, animated: true)
     }
     
     

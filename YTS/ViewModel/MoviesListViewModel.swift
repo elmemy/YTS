@@ -25,7 +25,7 @@ class MoviesListViewModel {
         didSet
         {
             self.updateLoadingStatus?()
-        }
+        }    
     }
     
     var numbeOfCells : Int
