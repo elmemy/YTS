@@ -43,6 +43,7 @@ class APIService: APIServiceProtocol {
                         complete(true, self.MoviesData, nil)
                         
                     }catch{
+                        complete(false,[],APIError.serverOverload)
                         print(error)
                     }
                     
