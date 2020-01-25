@@ -47,8 +47,7 @@ class APIService: APIServiceProtocol {
                     }
                     
                 case .failure(_):
-                    break
-                    
+                    complete(false,[],APIError.noNetwork)
                 }
             }
             
